@@ -1,0 +1,22 @@
+uuid: 58121718-06d9-49d1-8ae7-7885680973c9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - violan
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: violan_help
+theme: violan
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  provider: help
+  label_display: '0'
+visibility: {  }

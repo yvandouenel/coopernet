@@ -1,0 +1,22 @@
+uuid: b5eb1273-ee75-4602-99c3-6b2192b3effa
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - violan
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: violan_content
+theme: violan
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  provider: system
+  label_display: '0'
+visibility: {  }

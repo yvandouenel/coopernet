@@ -1,0 +1,22 @@
+uuid: cd8227c3-6e6e-4882-9b0f-95049cb29b6e
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - violan
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: violan_powered
+theme: violan
+region: navigation
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

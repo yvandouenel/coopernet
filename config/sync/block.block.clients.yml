@@ -1,0 +1,31 @@
+uuid: ff268be1-5645-4ba6-8bb1-c3855f7fe313
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:home_block:22d0a023-da3c-4982-ac6a-7ba584fa7430'
+  module:
+    - block_content
+    - system
+  theme:
+    - violan
+id: clients
+theme: violan
+region: highlighted
+weight: -9
+provider: null
+plugin: 'block_content:22d0a023-da3c-4982-ac6a-7ba584fa7430'
+settings:
+  id: 'block_content:22d0a023-da3c-4982-ac6a-7ba584fa7430'
+  label: clients
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

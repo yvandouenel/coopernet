@@ -1,0 +1,24 @@
+uuid: 3fb3f6a6-6b5b-4189-b9f2-5132f8be6bbe
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.haut-de-page
+  module:
+    - system
+  theme:
+    - violan
+id: hautdepage
+theme: violan
+region: topmenu
+weight: -7
+provider: null
+plugin: 'system_menu_block:haut-de-page'
+settings:
+  id: 'system_menu_block:haut-de-page'
+  label: 'Haut de page'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
