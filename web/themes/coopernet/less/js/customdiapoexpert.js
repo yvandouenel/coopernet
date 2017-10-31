@@ -30,7 +30,7 @@ console.log("diapo accueil");
 
   // Objet diaporama
   function Diaporama() {
-    this.nb_diapo = jQuery(li_du_diapo).size();
+    this.nb_diapo = jQuery(li_du_diapo).length;
     this.largeur = diaporama_width;
     this.hauteur = diaporama_height;
     this.largeur_cachee = this.nb_diapo * this.largeur + 20; // 20 : marge pour le cas où l'on placerait un contour aux diapos
