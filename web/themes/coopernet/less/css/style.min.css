@@ -1698,6 +1698,7 @@ h3.home_slide_title a p{margin:0;padding:0}
 .top-menu ul.menu{display:table;margin-right:40px}
 .top-menu ul.menu li{display:table-cell}
 .top-menu ul.menu li>a{color:#FFF;display:block}
+.top-menu ul.menu li>a:active,.top-menu ul.menu li>a:focus{color:#000}
 @media (max-width:768px){.top-menu ul.menu li>a{padding:10px 7px}
 }
 @media (min-width:992px){.top-menu ul.menu{float:right}

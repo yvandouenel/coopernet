@@ -86,6 +86,9 @@
       display: table-cell;
       > a {
         color: #FFF;
+        &:active, &:focus{
+          color: #000;
+        }
         display: block;
         @media (max-width: @screen-sm) {
           padding: 10px 7px;
