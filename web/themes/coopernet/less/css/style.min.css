@@ -1587,6 +1587,7 @@ ol,ul{padding-left:1.5em}
 .contour-gris:before,.region-highlighted .div-block-home:before{font-weight:400;text-decoration:inherit;text-transform:none;top:-20px;left:20px;width:30px;text-align:center;font-style:normal;speak:none;font-variant:normal;line-height:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 body{font-family:'Noticia Text',serif}
 h1,h2,h3,h4{font-family:'Bree Serif',serif}
+a:active{color:#000!important}
 .padding-fifty{padding:50px!important}
 .align-left{margin-right:20px}
 .align-right{margin-left:20px}
