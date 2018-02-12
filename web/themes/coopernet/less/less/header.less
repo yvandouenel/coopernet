@@ -69,6 +69,12 @@
 }
 .top-menu {
   background-color: #2E2E2E;
+  .container{
+    @media (max-width: @screen-sm) {
+      margin: 0;
+      padding: 0;
+    }
+  }
   .col-md-6 {
     @media (max-width: @screen-md) {
       padding: 0;
@@ -90,7 +96,7 @@
         }
         display: block;
         @media (max-width: @screen-sm) {
-          padding: 10px 7px;
+          padding: 10px 6px;
         }
       }
       &.first {
