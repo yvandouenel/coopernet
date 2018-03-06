@@ -1,19 +1,19 @@
-uuid: a7230b7e-f64f-4609-9d4f-d7762cce1c9a
+uuid: c10ea40d-30ab-44a1-bb64-ed1dd100157a
 langcode: fr
 status: true
 dependencies:
   config:
-    - node.type.page
+    - node.type.book
 _core:
-  default_config_hash: fPUEnm4T5zfZRr3ttDUqq7yCDd2uW3clWD-pvos4tlQ
-id: node.page.promote
+  default_config_hash: rYbAZX1eKDo7CVRnBnpYgdmk8HQo5IcKhzePCx9LCZY
+id: node.book.promote
 field_name: promote
 entity_type: node
-bundle: page
+bundle: book
 label: 'Promoted to front page'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 0
