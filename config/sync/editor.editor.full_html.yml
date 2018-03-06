@@ -63,7 +63,7 @@ settings:
             - Styles
   plugins:
     stylescombo:
-      styles: ''
+      styles: "p.fragment|Fragment\r\np.grow|Grow\r\np.shrink|Shrink\r\np.current-visible|Current"
     language:
       language_list: un
 image_upload:

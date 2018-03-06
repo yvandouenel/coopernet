@@ -8,6 +8,7 @@ dependencies:
     - node.type.reference
     - taxonomy.vocabulary.prestation_reference
   module:
+    - better_exposed_filters
     - draggableviews
     - image
     - node
@@ -754,7 +755,7 @@ display:
           exposed: true
           expose:
             operator_id: field_prestation_target_id_op
-            label: 'Type de prestation'
+            label: 'Type de prestation :'
             description: ''
             use_operator: false
             operator: field_prestation_target_id_op
@@ -783,24 +784,42 @@ display:
           type: select
           limit: true
           vid: prestation_reference
-          hierarchy: false
+          hierarchy: true
           error_message: true
           plugin_id: taxonomy_index_tid
       filter_groups:
         operator: AND
         groups:
           1: AND
-      use_ajax: false
+      use_ajax: true
       exposed_form:
-        type: basic
+        type: bef
         options:
           submit_button: Filtrer
-          reset_button: true
+          reset_button: false
           reset_button_label: Réinitialiser
           exposed_sorts_label: 'Sort by'
           expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Select any filter and click on Apply to see results'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Options avancées'
+              autosubmit: true
+              autosubmit_hide: true
+            field_prestation_target_id:
+              bef_format: bef_links
+              more_options:
+                bef_select_all_none: false
+                bef_select_all_none_nested: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+          text_input_required_format: full_html
     cache_metadata:
       max-age: -1
       contexts:
