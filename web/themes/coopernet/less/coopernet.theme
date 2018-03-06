@@ -24,3 +24,10 @@ function coopernet_preprocess_html(&$variables) {
   }
 }
 
+function coopernet_preprocess_node(&$variables) {
+  switch ($variables['node']->getType()) {
+    case "presentation":
+      $variables['#attached']['library'][] = 'coopernet/coopernet-presentation';
+      break;
+  }
+}
