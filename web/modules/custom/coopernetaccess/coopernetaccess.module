@@ -10,7 +10,7 @@ use Drupal\Core\Access\AccessResult;
  */
 function coopernetaccess_node_access($node, $op, $account) {
   //dpm("##########################");
-
+  // Attention le piège est que le superadmin ne passe pas dans ce hook
   if($node->getType() == "book" && !$account->isAuthenticated()) {
     return AccessResult::forbidden();
   }
