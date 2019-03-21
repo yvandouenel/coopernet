@@ -1,0 +1,29 @@
+uuid: 0c88b45b-4d15-48bc-a811-eea248535396
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - coopernet
+id: useraccountmenu
+theme: coopernet
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: /connexion-utilisateur
+    negate: false
+    context_mapping: {  }

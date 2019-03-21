@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.news.field_news_summary
     - field.field.node.news.field_news_type
     - field.field.node.news.field_news_url_redirect
+    - field.field.node.news.field_referencement
     - node.type.news
   module:
     - text
@@ -38,4 +39,5 @@ hidden:
   field_news_summary: true
   field_news_type: true
   field_news_url_redirect: true
+  field_referencement: true
   langcode: true

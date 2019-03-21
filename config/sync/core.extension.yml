@@ -16,6 +16,7 @@ module:
   contact: 0
   contact_storage: 0
   contextual: 0
+  coopernetaccess: 0
   crop: 0
   ctools: 0
   datetime: 0
@@ -35,6 +36,7 @@ module:
   file: 0
   filter: 0
   formation: 0
+  google_analytics: 0
   help: 0
   history: 0
   image: 0
