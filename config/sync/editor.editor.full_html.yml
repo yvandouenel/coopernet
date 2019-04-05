@@ -62,10 +62,10 @@ settings:
           items:
             - Styles
   plugins:
-    stylescombo:
-      styles: "p.fragment|Fragment\r\np.grow|Grow\r\np.shrink|Shrink\r\np.current-visible|Current"
     language:
       language_list: un
+    stylescombo:
+      styles: "p.question|question\r\ndiv.answer|reponse\r\n"
 image_upload:
   status: true
   scheme: public
