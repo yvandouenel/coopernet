@@ -1530,6 +1530,7 @@ body.toolbar-vertical.navbar-is-fixed-top header{top:39px}
 .tabledrag-toggle-weight{float:right;margin:1px 2px 1px 10px}
 .tabledrag-changed-warning{margin:0}
 .tabledrag-handle{color:#777;cursor:move;float:left;font-size:125%;line-height:1;margin:-10px 0 0 -10px;padding:10px}
+#next_diapo:hover,#previous_diapo:hover,.controleur:hover,.question:hover:after{cursor:pointer}
 .tabledrag-handle:focus,.tabledrag-handle:hover{color:#337ab7}
 .indentation{float:left;height:1.7em;margin:-.4em .2em -.4em -.4em;padding:.42em 0 .42em .6em;width:20px}
 [dir=rtl] .indentation{float:right;margin:-.4em -.4em -.4em .2em;padding:.42em .6em .42em 0}
@@ -1621,6 +1622,7 @@ blockquote:before{position:relative;top:1px;display:inline-block;width:1em;margi
 .page-node-type-book article.book h3{font-size:1.8em;border-bottom:1px solid #000;margin:30px 0 20px}
 .page-node-type-book article.book h4{margin:40px 0}
 .page-node-type-book article.book pre{font-size:1.1em}
+.question:after{content:" > afficher/cacher la réponse";color:#337ab7;font-size:.6em}
 .region-highlighted{margin-top:40px}
 .region-highlighted .div-block-home{border:1px solid #999;padding:20px;margin-bottom:35px;position:relative}
 .region-highlighted .div-block-home:before{margin-right:10px;content:"\e81a";font-size:3em;color:#999;position:absolute;top:-20px;left:20px;display:block;border-right:45px solid #fff;border-left:5px solid #fff;width:30px;background-color:#fff}
@@ -1669,7 +1671,6 @@ h3.home_slide_title a p{margin:0;padding:0}
 .view-display-id-block_2 ul{position:relative;list-style:none;padding:0;margin:0}
 .view-display-id-block_2 ul li{float:left;padding:0;margin:0;position:relative}
 .controleur{float:left;margin:0 20px 20px 0;border:1px solid #fff;padding:0 5px;height:89px}
-#next_diapo:hover,#previous_diapo:hover,.controleur:hover{cursor:pointer}
 #controleurs{display:table;margin:0 auto}
 #controleurs #controleur_0{background-image:url(../images/slideshow/rouages.png);background-repeat:no-repeat;background-position:50% 100%}
 #controleurs #controleur_1{background-image:url(../images/slideshow/analytics_0.gif);background-repeat:no-repeat;background-position:50% 100%}

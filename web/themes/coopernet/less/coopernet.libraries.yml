@@ -26,6 +26,9 @@ custom-scripts:
   js:
     js/hide-show-contact.js: {}
     js/customdiapoexpert.js: {}
+    js/show-hide.js: {}
+  dependencies:
+      - core/jquery
 
 coopernet-presentation:
   js:
@@ -35,3 +38,5 @@ coopernet-presentation:
   css:
     theme:
       css/reveal.min.css: {}
+
+
