@@ -1623,6 +1623,7 @@ blockquote:before{position:relative;top:1px;display:inline-block;width:1em;margi
 .page-node-type-book article.book h4{margin:40px 0}
 .page-node-type-book article.book pre{font-size:1.1em}
 .question:after{content:" > afficher/cacher la réponse";color:#337ab7;font-size:.6em}
+.large>li{margin-left:30px}
 .region-highlighted{margin-top:40px}
 .region-highlighted .div-block-home{border:1px solid #999;padding:20px;margin-bottom:35px;position:relative}
 .region-highlighted .div-block-home:before{margin-right:10px;content:"\e81a";font-size:3em;color:#999;position:absolute;top:-20px;left:20px;display:block;border-right:45px solid #fff;border-left:5px solid #fff;width:30px;background-color:#fff}
