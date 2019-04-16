@@ -11,7 +11,7 @@ jQuery(function($) {
   });
   $("article.book p,article.book pre,article.book ul").each(function() {
     $(this).on("click", function() {
-      $(".large").each(function(){
+      $(".large").each(function() {
         backToNormal($(this));
       });
       console.log("animate");
@@ -20,19 +20,19 @@ jQuery(function($) {
         var container = $("body"),
           scrollTo = $(this);
 
-          container.animate({
-            scrollTop:
-              scrollTo.offset().top -
-              container.offset().top +
-              container.scrollTop()
-          });
+        container.animate({
+          scrollTop:
+            scrollTo.offset().top -
+            container.offset().top +
+            container.scrollTop()
+        });
         $(this).css({
           position: "absolute",
           "border-color": "#C1E0FF",
           "border-weight": "1px",
           "border-style": "solid",
           "border-radius": "10px",
-          "color": "white",
+          color: "white",
           left: 0,
           "background-color": "black",
           padding: "30px"
@@ -45,9 +45,12 @@ jQuery(function($) {
             left: "-" + (position.left - 20) + "px"
           });
 
-          $('html,body').animate({
-            scrollTop: (position.top - 150)
-        }, 'slow');
+          $("html,body").animate(
+            {
+              scrollTop: position.top - 150
+            },
+            "slow"
+          );
 
           $(this).animate(
             {
@@ -63,19 +66,23 @@ jQuery(function($) {
       }
     });
   });
-  function backToNormal(domElement){
-    console.log('dans backToNormal');
+  function backToNormal(domElement) {
+    console.log("dans backToNormal");
     domElement.css({
-      "position": "static",
+      position: "static",
       "border-weight": "0",
       "border-color": "transparent",
-      "width": "auto",
-      "height": "auto",
+      width: "auto",
+      height: "auto",
       "line-height": "auto",
-      "color": "black",
+      color: "black",
       "background-color": "white",
       "font-size": "1em",
-      "padding": "10px 0",
+      padding: "10px 0"
     });
   }
+  // Arrêt de la propagation de l'événement si un click sur le lien
+    $("article.book p a, article.book pre a,article.book ul a").click(function() {
+      event.stopImmediatePropagation();
+    });
 });
