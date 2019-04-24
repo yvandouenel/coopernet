@@ -10,7 +10,7 @@ jQuery(function($) {
     });
   });
   $("article.book p,article.book pre,article.book ul").each(function() {
-    $(this).on("click", function() {
+    $(this).on("dblclick", function() {
       $(".large").each(function() {
         backToNormal($(this));
       });
