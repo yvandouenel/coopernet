@@ -27,6 +27,7 @@ module:
   ds: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_file: 0
   feature_reference: 0
   features: 0
   features_ui: 0
