@@ -1,0 +1,11 @@
+uuid: edcfc767-56f3-46e2-b3b7-8480f8c8f249
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.etat_fonctionnalite
+id: taxonomy_term.etat_fonctionnalite
+target_entity_type_id: taxonomy_term
+target_bundle: etat_fonctionnalite
+default_langcode: site_default
+language_alterable: false

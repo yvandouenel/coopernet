@@ -1,0 +1,9 @@
+uuid: 8817700b-d8e7-4a00-8f5e-b43e33a47595
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Etat fonctionnalité'
+vid: etat_fonctionnalite
+description: ''
+hierarchy: 0
+weight: 0
