@@ -1,0 +1,21 @@
+uuid: 3a731fff-7791-491f-b442-a3b2c3fcd1d0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - serialization
+    - user
+id: user_registration
+plugin_id: user_registration
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie

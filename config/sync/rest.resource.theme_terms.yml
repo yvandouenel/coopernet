@@ -1,0 +1,22 @@
+uuid: f89adcc1-e2f2-4b61-9818-0b05376a1b12
+langcode: fr
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - memo
+    - serialization
+    - user
+id: theme_terms
+plugin_id: theme_terms
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie

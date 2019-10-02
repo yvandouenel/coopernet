@@ -1,0 +1,22 @@
+uuid: 3ab6d961-b760-4ddb-aa9d-8015bf4c57ea
+langcode: fr
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - memo
+    - serialization
+    - user
+id: list_cartes
+plugin_id: list_cartes
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie

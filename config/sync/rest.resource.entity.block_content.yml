@@ -1,0 +1,25 @@
+uuid: b2f4c02c-e233-4ae7-9f29-f4fda55497e7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - block_content
+    - hal
+    - serialization
+    - user
+id: entity.block_content
+plugin_id: 'entity:block_content'
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+    - DELETE
+    - PATCH
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie

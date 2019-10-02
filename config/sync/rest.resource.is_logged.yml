@@ -1,0 +1,22 @@
+uuid: a12cb2ca-4647-46a1-91c6-bf0e54b7b7cd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - memo
+    - serialization
+    - user
+id: is_logged
+plugin_id: is_logged
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie
